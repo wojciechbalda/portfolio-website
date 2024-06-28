@@ -6,10 +6,14 @@ import ExternalLink from "@/components/ExternalLink";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/data";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Portfolio Wojciech Bałda</title>
+      </Head>
       <Circle className="w-[1000px] -right-[900px] lg:-right-[700px] -z-10 -top-[500px]" />
       <Circle className="w-[500px] -left-[450px] lg:-left-[400px] -z-10 top-[250px]" />
       <HeroSection />
