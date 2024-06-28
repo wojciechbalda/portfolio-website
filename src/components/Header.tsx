@@ -55,7 +55,7 @@ export default function Header() {
           className="py-2 uppercase font-bold text-lg cursor-pointer select-none"
           whileTap={{ scale: 0.5 }}
         >
-          Wojciech B
+          Wojciech Bałda
         </motion.div>
         <div className={cn("inset-0 absolute top-full bg-white h-[calc(100vh_-_52px)] z-50", { hidden: !open })}>
             <ContentContainer className="flex flex-col justify-between h-full">
